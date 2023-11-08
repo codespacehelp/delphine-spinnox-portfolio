@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+<h1>Hello!!!</h1>
+
+<p>This is my site. Here are the latest updates!!!!</p>
+
+
+<div class="product-grid">
+    {% for product in collections.product %}
+    <div class="product-thumb" href="{{ product.url }}">
+        <a href="{{ product.url }}"><img src="/static/products/{{ product.data.images.0 }}"></a>
+        <div class="product-description">{{ product.data.description }}</div>
+    </div>
+    {% endfor %}
+</div>
