@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #1a1a1a;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: #ccc;
+}
